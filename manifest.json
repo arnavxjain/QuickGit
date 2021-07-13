@@ -1,0 +1,23 @@
+{
+    "name": "QuickGit",
+    "description": "desc",
+    "version": "0.1",
+    "permissions": [
+        "tabs","<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": "main.png",
+        "default_popup": "sketch/index.html"
+    },
+    "content_scripts": [
+        {
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+            ],
+        "js": ["content.js"],
+        "run_at": "document_end"
+        }
+    ],
+    "manifest_version": 2
+}

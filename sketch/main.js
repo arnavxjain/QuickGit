@@ -37,8 +37,9 @@ const createTemplate = (data, type) => {
         <div class="result">
             <img src='${data.avatar_url}'/>
             <div class="result_page_info">
-                <h4><a href="">${data.name}</a></h4>
+                <h4>${data.name}</h4>
                 <h5>${data.login}</h4>
+                <h5>${data.followers} Followers</h5>
             </div>
             <a target="_blank" class="button" href='${data.html_url}'>View Profile</a>
         </div>

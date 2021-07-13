@@ -130,14 +130,15 @@ textarea:focus {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin-right: 7px;
-    margin-left: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .result h4 {
     font-size: 15px !important;
     text-decoration: none !important;
     margin: 0;
+    color: rgb(63, 78, 179);
 }
 
 .result h4 a {

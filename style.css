@@ -109,6 +109,8 @@ textarea:focus {
     margin: 10px;
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-bottom: 4.5px;
+    margin-top: 4.5px;
     /* width: 96%; */
 }
 
